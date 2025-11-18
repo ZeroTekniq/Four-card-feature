@@ -76,7 +76,6 @@
         grid-template-areas: ". b ." "a b d" "a c d" ". c .";
     }
     
-
     :nth-child(1) {
         grid-area: a;
     }
