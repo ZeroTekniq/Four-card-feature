@@ -10,7 +10,7 @@
     margin: 3.5rem auto 0 auto;
     max-width: 19.625rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: 23.4375rem) {
         margin: 8rem auto 0 auto;
         min-width: 33.75rem;
     }
@@ -52,7 +52,7 @@
  
     display: grid;
     
-    @media (min-width: 375px) {
+    @media (min-width: 23.4375rem) {
         grid-template-columns: 1fr;
         grid-template-areas: "a" "b" "c" "d";
 
@@ -61,7 +61,7 @@
         }
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 48rem) {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: ". a a ." "b b c c" ". d d .";
 
@@ -71,7 +71,7 @@
     }
 
 
-    @media (min-width: 1440px) {
+    @media (min-width: 90rem) {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: ". b ." "a b d" "a c d" ". c .";
     }
